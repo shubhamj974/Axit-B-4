@@ -31,7 +31,7 @@
     left: 0;
     bottom: 0;
     width: 0%;
-    height: 3px;
+    height: .188rem;
     background-color: var(--pri--col);
     transition: all 0.3s ease-in-out;
     position: absolute;
@@ -57,6 +57,56 @@
 
 .mainHeader .navbar-toggler .fas.fa-bars {
     color: var(--pri--col);
-    border: 1px solid var(--pri--col);
-    padding: 5px 8px;
+    border: .188rem solid var(--pri--col);
+    padding: .313rem .5rem;
+}
+
+
+/* -----------HeroSection----------- */
+
+.heroImg{
+    height: calc(100vh - 60.8px);
+    background-image: url(../images/img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.heroImg .pri-heading {
+    font-size: 2.25rem;
+    color: var(--white-col);
+    width:90%;
+    position: relative;
+    
+}
+
+.heroImg .pri-heading::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2.188rem;
+    width: 4.375rem;
+    height: .188rem;
+    background-color: var(--white-col);
+
+}
+
+.heroImg .sec-heading{
+    color : var(--white-col);
+    font-size: 1rem;
+}
+
+.heroImg .btn-outline-light{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.heroImg .card span{
+    color: var(--pri--col);
+}
+
+.heroImg .card .btn.btn-pri.btn-block , .heroImg .card-footer{
+    background-color: #ff9b51;
 }
