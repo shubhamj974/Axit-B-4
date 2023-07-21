@@ -1,0 +1,62 @@
+:root {
+    --pri--col: #ff8b38;
+    --white-col: #fff;
+    --dark-col: #000;
+}
+
+/* -----------------Header CSS--------------------- */ 
+
+.mainHeader .navbar-nav .active>.nav-link::before,
+.mainHeader .navbar-nav .nav-link.active::before,
+.mainHeader .navbar-nav .nav-link.show::before,
+.mainHeader .navbar-nav .show>.nav-link::before,
+.mainHeader .navbar-nav .active>.nav-link,
+.mainHeader .navbar-nav .nav-link.active,
+.mainHeader .navbar-nav .nav-link.show,
+.mainHeader .navbar-nav .show>.nav-link{
+    width: 100%;
+    color: var(--pri--col);
+}
+
+.mainHeader .navbar-nav .nav-link {
+    color: var(--white-col);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.mainHeader .navbar-nav .nav-link::before {
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: var(--pri--col);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+}
+
+.mainHeader .navbar-nav .nav-link:hover::before,
+.mainHeader .navbar-nav .nav-link:active::before,
+.mainHeader .navbar-nav .nav-link:focus::before,
+.mainHeader .navbar-nav .nav-link:hover,
+.mainHeader .navbar-nav .nav-link:focus,
+.mainHeader .navbar-nav .nav-link:active {
+    color: var(--pri--col);
+    width: 100%;
+}
+
+.mainHeader {
+    background-color: var(--dark-col);
+}
+
+.mainHeader .bg-light {
+    background-color: var(--dark-col) !important;
+}
+
+.mainHeader .navbar-toggler .fas.fa-bars {
+    color: var(--pri--col);
+    border: 1px solid var(--pri--col);
+    padding: 5px 8px;
+}
