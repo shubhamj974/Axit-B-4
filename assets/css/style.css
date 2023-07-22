@@ -68,7 +68,7 @@
 /* -----------HeroSection----------- */
 
 .heroImg{
-    height: calc(100vh - 60.8px);
+    height: calc(74vh - 60.8px);
     background-image: url(../images/img.jpg);
     background-position: center;
     background-size: cover;
@@ -163,3 +163,5 @@
     color: var(--white);
     font-weight: 700;
 }
+
+/* ----------Social Media-------------- */
