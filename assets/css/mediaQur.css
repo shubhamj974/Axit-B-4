@@ -1,0 +1,21 @@
+
+
+/* -----------hereSection--------- */
+
+@media all and (max-width : 767px){
+    .mediaCenter{
+        text-align: center;
+    }
+    .primary{
+        margin-bottom: 40px;
+    }
+    .heroImg .card-footer .py-4{
+        padding: 1rem  0 !important;
+    }
+    .heroImg .pri-heading::before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

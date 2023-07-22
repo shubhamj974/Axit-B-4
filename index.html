@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0165863800.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/helper.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaQur.css">
     <title>Axit Laytout</title>
 </head>
 
@@ -55,46 +56,49 @@
     <main>
         <section class="heroImg py-120">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6 mediaCenter">
                         <img class="mb-30" src="./assets/images/large-logo.png" alt="L-logo">
-                        <p class="pri-heading text-uppercase mb-60">modern axure template for beautiful prototypes</p>
+                        <h1 class="pri-heading text-uppercase mb-60">modern axure template for beautiful prototypes</h1>
                         <p class="sec-heading mb-30">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                             euismod bibendum laoreet. Proin gravida dolor sit amet lacus
                             accumsan et viverra justo commodo.
                         </p>
-                        <button type="button" class="btn btn-outline-light">Download</button>
+                        <button type="button" class="primary">Download</button>
                     </div>
-                    <div class="col-md-4 offset-md-2 mt-30">
-                        <div class="card text-capitalize">
-                            <div class="card-header text-center ">
-                                <h4>try your free <span>trial</span> today</h4>
-                            </div>
-                            <div class="card-body">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="name" class="sr-only">Name</label>
-                                        <input type="text" class="form-control" placeholder="Name" id="name"
-                                            aria-describedby="emailHelp">
-                                       
-                                         
+                    <div class="col-md-4 offset-md-2 text-capitalize">
+                        <form>
+                            <div class="card border-0 overflow-hidden">
+                                <div class="card-header text-center">
+                                    <h4>try your <span>free</span> trial today</h4>
+                                </div>
+                                <div class="p-3">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label class="sr-only" for="name">Name</label>
+                                                <input type="text" placeholder="Name" id="name" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only" for="email">Email</label>
+                                                <input type="text" placeholder="Email" id="email" class="form-control">
+                                            </div>
+                                            <div class="form-group m-0">
+                                                <label class="sr-only" for="password">Password</label>
+                                                <input type="text" placeholder="Password" id="password" class="form-control">
+                                            </div>
+                                            
+                                        </form>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="email" class="sr-only">Email</label>
-                                        <input type="text" class="form-control" placeholder="Email" id="email">
+                                </div>
+                                <div class="card-footer p-0">
+                                    <div class="text-center">
+                                        <button type="button" class="btn-block text-capitalize py-4 border-0">get submited</button>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="password" class="sr-only">Password</label>
-                                        <input type="password" class="form-control" placeholder="Password" id="password">
-                                    </div>
-                                    
-                                </form>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <button type="button" class="btn btn-pri btn-block text-capitalize">get started</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
