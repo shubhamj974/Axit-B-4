@@ -158,6 +158,8 @@
     box-shadow: 0 0 0 0rem rgba(255, 255, 255, 1);
 }
 
-.heroImg .btn-block{
+.heroImg .btn-block {
     background-color: var(--sec--col);
+    color: var(--white);
+    font-weight: 700;
 }
