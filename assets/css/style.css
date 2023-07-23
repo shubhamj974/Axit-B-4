@@ -142,7 +142,7 @@
     box-shadow: 0 0 0 0rem rgba(255, 255, 255, 1);
 }
 
-.heroImg .btn-block {
+.btn-bg {
     background-color: var(--sec--col);
     color: var(--white);
     font-weight: 700;
@@ -154,12 +154,28 @@
     color: var(--social-icon) !important;
 }
 
-.socialMedia .sec-heading {
-    font-size: 0.875rem;
-    font-weight: light;
-    color: var(--hr-color);
-}
+
 
 .socialMedia hr{
     border-top : 2px solid var(--hr-color) ;
+}
+
+
+/* ------------featureOne Section------------- */
+
+.featureOne nav {
+    flex: 0 0 6.875rem;
+}
+
+.featureOne .nav-link {
+    width: 100%;
+    padding: 3.438rem 0;
+}
+
+.featureOne .tab-pane{
+    padding-left: 6.875rem ;
+}
+
+.featureOne .sec-heading {
+    color: #86878b;
 }

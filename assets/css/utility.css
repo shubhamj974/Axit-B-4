@@ -14,5 +14,10 @@
     width: 4.375rem;
     height: .188rem;
     background-color: var(--white-col);
+}
 
+.sec-heading {
+    font-size: 0.875rem;
+    font-weight: light;
+    color: var(--hr-color);
 }
