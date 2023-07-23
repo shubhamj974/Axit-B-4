@@ -5,6 +5,9 @@
     --dark-col: #000;
     --card-header : #f5f5f5;
     --form-input : #bdbdbd;
+    --social-icon : #cccccc;
+    --hr-color : #d6d6d6;
+
 }
 
 /* -----------------Header CSS--------------------- */ 
@@ -146,3 +149,17 @@
 }
 
 /* ----------Social Media-------------- */
+
+.socialMedia i{
+    color: var(--social-icon) !important;
+}
+
+.socialMedia .sec-heading {
+    font-size: 0.875rem;
+    font-weight: light;
+    color: var(--hr-color);
+}
+
+.socialMedia hr{
+    border-top : 2px solid var(--hr-color) ;
+}
