@@ -1,0 +1,18 @@
+.shortBorder {
+    font-size: 2.25rem;
+    color: var(--white-col);
+    width:90%;
+    position: relative;
+    
+}
+
+.shortBorder::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2.188rem;
+    width: 4.375rem;
+    height: .188rem;
+    background-color: var(--white-col);
+
+}

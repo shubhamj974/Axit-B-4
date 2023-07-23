@@ -77,25 +77,6 @@
     
 }
 
-.heroImg .pri-heading {
-    font-size: 2.25rem;
-    color: var(--white-col);
-    width:90%;
-    position: relative;
-    
-}
-
-.heroImg .pri-heading::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2.188rem;
-    width: 4.375rem;
-    height: .188rem;
-    background-color: var(--white-col);
-
-}
-
 .heroImg .sec-heading{
     color : var(--white-col);
     font-size: 1rem;
