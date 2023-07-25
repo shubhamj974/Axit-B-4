@@ -1,23 +1,95 @@
-.shortBorder {
-    font-size: 2.25rem;
-    color: var(--white-col);
-    width:90%;
-    position: relative;
-    
+:root {
+    --pri--col: #ff8b38;
+    --sec--col: #ff9b51;
+    --white-col: #fff;
+    --dark-col: #000;
+    --card-header: #f5f5f5;
+    --form-input: #bdbdbd;
+    --social-icon: #cccccc;
+    --hr-color: #d6d6d6;
+    --tab-bg: #333333;
+    --para-: #86878b;
+    --smallTitle-: #212121;
+
 }
 
-.shortBorder::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2.188rem;
-    width: 4.375rem;
-    height: .188rem;
-    background-color: var(--white-col);
+.pri-heading {
+    font-size: 2.25rem;
+    color: var(--white-col);
 }
 
 .sec-heading {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.sec-para {
     font-size: 0.875rem;
     font-weight: light;
-    color: var(--hr-color);
+    color: var(--para-);
+}
+
+.small-heading {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--smallTitle-);
+}
+
+.small-para {
+    font-size: 0.875rem;
+}
+
+
+
+.shortBorder {
+    width: 90%;
+    position: relative;
+
+}
+
+.shortBorder::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1.8rem;
+    width: 4.375rem;
+    height: .188rem;
+
+}
+
+.shortBorderWhite::before {
+    background-color: var(--white-col);
+}
+
+.shortBorderOrange::before {
+    background-color: var(--pri--col);
+}
+
+
+
+.bg-grey {
+    background-color: var(--card-header);
+}
+
+.font-rounded {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid var(--pri--col);
+    border-radius: 50%;
+}
+
+.img-shadow {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.img-shadow:hover,
+.img-shadow:focus,
+.img-shadow:active {
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+    transform: translateY(-3px);
 }
