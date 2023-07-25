@@ -15,7 +15,8 @@
 
 .pri-heading {
     font-size: 2.25rem;
-    color: var(--white-col);
+    color: var(--dark-col);
+    text-transform: capitalize;
 }
 
 .sec-heading {
@@ -44,7 +45,6 @@
 
 
 .shortBorder {
-    width: 90%;
     position: relative;
 
 }
@@ -67,6 +67,11 @@
     background-color: var(--pri--col);
 }
 
+.shortBorderOrangeCenter::before {
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--pri--col);
+}
 
 
 .bg-grey {
@@ -93,3 +98,4 @@
     transform: scale(1.1);
     transform: translateY(-3px);
 }
+
