@@ -18,9 +18,6 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .heroImg{
-        height: calc(100vh - 60.8px);
-    }
 }
 
 @media all and (min-width : 1024px) and (max-width : 1180px){
