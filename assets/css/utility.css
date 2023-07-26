@@ -17,6 +17,7 @@
     font-size: 2.25rem;
     color: var(--dark-col);
     text-transform: capitalize;
+    
 }
 
 .sec-heading {
@@ -41,8 +42,6 @@
 .small-para {
     font-size: 0.875rem;
 }
-
-
 
 .shortBorder {
     position: relative;

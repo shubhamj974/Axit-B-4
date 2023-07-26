@@ -116,7 +116,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, .125);
 }
 
-.card-header span {
+.heroImg span {
     color: var(--pri--col);
     text-transform: uppercase;
 }
@@ -224,7 +224,7 @@ hr {
 
 /* --------------Awesome------------- */
 
-.awesome .font-rounded { 
+.awesome .font-rounded {
     width: 4.375rem;
     height: 4.375rem;
 }
@@ -234,7 +234,71 @@ hr {
 }
 
 
-.awesome .sec-heading{
-    color : var(--tab-bg)
+.awesome .sec-heading {
+    color: var(--tab-bg)
 }
 
+
+/* ----------- Pricing Section -------------- */
+
+.pricing-card .pri-heading {
+    color: var(--smallTitle-);
+
+}
+
+.pricing-card .card-header {
+    background-color: var(--tab-bg);
+}
+
+.pricing-card .sec-heading {
+    padding: 1.375rem 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--card-header);
+}
+
+.pricing-card .sec-para {
+    /* padding: 1.875rem 0; */
+    color: var(--white-col);
+    font-size: 2.188rem;
+}
+
+.pricing-card span {
+    font-size: 5.875rem;
+    transform: translateX(-10px);
+    display: inline-block;
+}
+
+.pricing-card small {
+    padding: 1.563rem 0;
+    font-weight: 500;
+}
+
+.pricing-card .list-group-item {
+    color: var(--para-);
+    font-size: 0.875rem;
+    border: 0;
+    border-radius: 0;
+}
+
+.pricing-card li:not(li:last-child) {
+    border-bottom: 1px solid var(--card-header);
+}
+
+.fixed {
+    height: calc(287px - 1px);
+}
+
+.fixed-card-2 {
+    height: calc(338px - 1px);
+}
+
+.card-border-bottom{
+    height: 5px;
+    background-color: var(--pri--col);
+    margin: 0;
+}
+
+.border-content{
+    background-color: var(--pri--col);
+    margin: 0;
+}
