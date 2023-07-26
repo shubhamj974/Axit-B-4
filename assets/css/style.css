@@ -146,6 +146,11 @@
 
 .socialMedia i {
     color: var(--social-icon) !important;
+    transition: all .3s ease-in-out;
+}
+
+.socialMedia i:hover {
+    color: var(--pri--col) !important;
 }
 
 hr {
