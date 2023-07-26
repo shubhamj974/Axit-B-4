@@ -285,20 +285,34 @@ hr {
 }
 
 .fixed {
-    height: calc(287px - 1px);
+    height: calc(17.938rem - 1px);
 }
 
 .fixed-card-2 {
-    height: calc(338px - 1px);
+    height: calc(21.125rem - 1px);
 }
 
-.card-border-bottom{
+.card-border-bottom {
     height: 5px;
     background-color: var(--pri--col);
     margin: 0;
 }
 
-.border-content{
+.border-content {
     background-color: var(--pri--col);
     margin: 0;
+}
+
+
+/* ---------- Customer Feedback ------------- */
+
+.customer-feedback .sec-para {
+    padding: 1.563rem 0.938rem;
+    background-color: var(--card-header);
+}
+
+
+.customer-feedback .trangle::before {
+    left: 1.875rem;
+    border-top: 0.938rem solid var(--card-header);
 }
