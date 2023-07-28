@@ -333,3 +333,24 @@ hr {
 .customer-feedback .small-para{
     color: var(--para-);
 }
+
+
+
+/* Design section */
+
+.design{
+    background-image: url("../images/img-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.design .shortBorderWhite::before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.design .sec-para{
+    color: #ababab;
+    margin-bottom: 30px;
+}
