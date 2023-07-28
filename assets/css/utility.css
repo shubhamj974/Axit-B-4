@@ -41,6 +41,7 @@
 
 .small-para {
     font-size: 0.875rem;
+    text-transform: capitalize;
 }
 
 .shortBorder {
@@ -109,8 +110,8 @@
     width: 0;
     left: 0;
     top: 100%;
-    border-left: 15px solid transparent;
-    border-top:15px solid transparent;
-    border-right : 15px solid transparent;
-    border-bottom: 15px solid transparent;
+    border-left: 10px solid transparent;
+    border-top:10px solid transparent;
+    border-right : 10px solid transparent;
+    border-bottom: 10px solid transparent;
 }

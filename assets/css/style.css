@@ -306,13 +306,30 @@ hr {
 
 /* ---------- Customer Feedback ------------- */
 
-.customer-feedback .sec-para {
+.user-feedback {
+    width: 85%;
+}
+
+
+
+.user-feedback .sec-para {
     padding: 1.563rem 0.938rem;
+    color: var(--para-);
     background-color: var(--card-header);
+    border-radius: 5px;
+    line-height: 1.2;
 }
 
 
 .customer-feedback .trangle::before {
     left: 1.875rem;
     border-top: 0.938rem solid var(--card-header);
+}
+
+.feedback-info .sec-heading{
+    color : var(--tab-bg)
+}
+
+.customer-feedback .small-para{
+    color: var(--para-);
 }
