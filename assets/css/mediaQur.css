@@ -1,27 +1,80 @@
-
-
 /* -----------hereSection--------- */
 
-@media all and (max-width : 767px){
-    .mediaCenter{
+@media all and (max-width : 767px) {
+    .mediaCenter {
         text-align: center;
     }
-    .primary{
+
+    .primary {
         margin-bottom: 40px;
     }
-    .heroImg .card-footer .py-4{
-        padding: 1rem  0 !important;
+
+    .heroImg .card-footer .py-4 {
+        padding: 1rem 0 !important;
     }
-    .heroImg .pri-heading::before{
+
+    .heroImg .pri-heading::before {
         content: '';
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .featureOne nav {
+        margin-bottom: 20px;
+        border-radius: 5px;
+        flex: 0 0 0;
+    }
+
+    .featureOne .nav-tabs {
+        border-radius: 5px;
+    }
+
+    .featureOne .nav-link {
+        padding: 20px;
+        border-radius: 5px !important;
+        flex: 1;
+    }
+
+    .featureOne .tab-content {
+        margin-bottom: 40px;
+    }
+
+    .featureOne .tab-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featureOne .tab-pane {
+        padding: 0;
+    }
+
+    .featureOne .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .py-120 {
+        padding: 4rem 0;
+    }
+
+    .customer-feedback .feedback-info {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .footer .icon {
+        margin: 0 10px;
+    }
+    .mb-80{
+        margin-bottom: 40px;
+    }
+    .socialMedia .font-size i{
+        font-size: 24px;
+    }
 }
 
-@media all and (min-width : 1024px) and (max-width : 1180px){
-    .py-120{
+@media all and (min-width : 1024px) and (max-width : 1180px) {
+    .py-120 {
         padding: 2.5rem 0;
     }
 }
