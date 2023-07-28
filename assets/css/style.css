@@ -381,3 +381,24 @@ hr {
 }
 
  
+
+/* footer section */
+
+.footer{
+    background-color: var(--dark-col);
+}
+
+ 
+
+.footer .icon{
+    color : #cccccc;
+    margin: 0 15px;
+}
+
+.footer .icon i {
+    font-size: 22px;
+}
+
+.footer .footer-copyright{
+    color : #787878
+}
