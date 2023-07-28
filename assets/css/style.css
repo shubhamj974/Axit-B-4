@@ -239,6 +239,7 @@ hr {
 }
 
 
+
 /* ----------- Pricing Section -------------- */
 
 .pricing-card .pri-heading {
@@ -354,3 +355,29 @@ hr {
     color: #ababab;
     margin-bottom: 30px;
 }
+
+
+/* Contact Section */
+
+.contact .main-form .form-control{
+    border : 0;
+    border-bottom: 1px solid var(--form-input);
+    border-radius: 0;
+}
+
+.contact .main-form .form-control::placeholder{
+    font-size: 14px;
+    color: var(--form-input);
+}
+
+.contact .form-message textarea{
+    font-size: 14px;
+    height: 145px;
+}
+
+.contact .main-form button{
+    background-color: var(--pri--col);
+    border-color: var(--pri--col);
+}
+
+ 
